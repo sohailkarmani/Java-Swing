@@ -1,13 +1,13 @@
 
+/*Write an GUI Application that capture following information of a Student :
 
-// import org.json.simple.JSONObject;
-// public class App {
-//     public static void main(String[] args) throws Exception {
-//         JSONObject obj=new JSONObject();
-//         obj.put("name","sohail");
-//         System.out.println(obj);
-//     }
-// }
+ 	1. Reg. No.	2. Name	3. Batch	4. Section	 
+	5. Gender (must be a choice object) eg Radio Button
+	6. Qualification (must be a choice object) eg Check Box
+	7. Address (must have multiple lines) eg TextArea
+	8. Country (must be list item) eg ComboBox
+
+This application must have 2 buttons on the screen one is for Save and one for Display, when user selects Save then all fields will be initialized and data will be stored in JSON file. On pressing display button all the data will be shown on new frame.*/
 
 
 
