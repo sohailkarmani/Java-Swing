@@ -12,16 +12,17 @@ public class add extends JFrame implements ActionListener{
     JTextField t1,t2;
     JButton b1;
     JLabel l;
+    JFrame  f;
     public add(){
         t1=new JTextField(20);
         t2=new JTextField(20);
         b1=new JButton("OK");
         l=new JLabel("Result");
        
-        add(t1);
-        add(t2);
-        add(b1);
-        add(l);
+        f.add(t1);
+        f.add(t2);
+        f.add(b1);
+        f.add(l);
 b1.addActionListener(this);
         setLayout(new FlowLayout());
         setVisible(true);
@@ -30,12 +31,13 @@ b1.addActionListener(this);
 
 
     }
-    public void actionformed(ActionEvent ae){
+     public void actionformed(ActionEvent ae){
         int num1=Integer.parseInt(t1.getText());
         int num2=Integer.parseInt(t2.getText());
         int value=num1+num2;
         l.setText(value+ "");
     }
+    
 
     
 }
